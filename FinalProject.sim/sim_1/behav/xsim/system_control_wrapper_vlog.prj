@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../FinalProject.srcs/sources_1/bd/system_control/ipshared/ec67/hdl" --include "../../../../FinalProject.srcs/sources_1/bd/system_control/ipshared/2d50/hdl" --include "C:/Users/Brock/school/Vivado/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../../FinalProject.srcs/sources_1/new/multiplier_verilog.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/ip/system_control_processing_system7_0_0/sim/system_control_processing_system7_0_0.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/ip/system_control_INTERFACE_AND_MULTIP_0_0/sim/system_control_INTERFACE_AND_MULTIP_0_0.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/ip/system_control_xbar_0/sim/system_control_xbar_0.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/ip/system_control_auto_pc_0/sim/system_control_auto_pc_0.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/ip/system_control_auto_us_0/sim/system_control_auto_us_0.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/ip/system_control_auto_us_1/sim/system_control_auto_us_1.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/ip/system_control_auto_pc_1/sim/system_control_auto_pc_1.v" \
+"../../../../FinalProject.ip_user_files/bd/system_control/sim/system_control.v" \
+"../../../../FinalProject.srcs/sources_1/bd/system_control/hdl/system_control_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

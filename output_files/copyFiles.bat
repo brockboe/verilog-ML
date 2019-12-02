@@ -1,0 +1,3 @@
+copy "C:\Users\Brock\School\ECE498\Final Project\FinalProject.runs\impl_1\system_control_wrapper.bit" "C:\Users\Brock\school\ECE498\Final Project\output_files\fp.bit"
+copy "C:\Users\Brock\School\ECE498\Final Project\FinalProject.runs\impl_1\system_control_wrapper.tcl" "C:\Users\Brock\school\ECE498\Final Project\output_files\fp.tcl"
+copy "C:\Users\Brock\School\ECE498\Final Project\FinalProject.srcs\sources_1\bd\system_control\hw_handoff\system_control.hwh" "C:\Users\Brock\school\ECE498\Final Project\output_files\fp.hwh"

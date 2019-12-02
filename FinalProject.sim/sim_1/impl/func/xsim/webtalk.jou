@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Fri Nov 22 19:03:25 2019
+# Process ID: 6156
+# Current directory: C:/Users/Brock/school/ECE498/final_project/FinalProject.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Brock/school/ECE498/final_project/FinalProject.sim/sim_1/impl/func/xsim/xsim.dir/testbench_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Brock/school/ECE498/final_project/FinalProject.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: C:/Users/Brock/school/ECE498/final_project/FinalProject.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Brock/school/ECE498/final_project/FinalProject.sim/sim_1/impl/func/xsim/xsim.dir/testbench_func_impl/webtalk/xsim_webtalk.tcl -notrace
