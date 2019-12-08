@@ -6,6 +6,7 @@ module PE_array(
     input [31:0] in_count,
     
     output reg [31:0] conv_out,
+    output reg [31:0] bias,
     output reg out_read,
     output reg out_done,
     output reg valid_output
@@ -19,7 +20,8 @@ module PE_array(
     reg [31:0] sum;
     
     always @ (posedge CLK) begin
-        if ((in_count == 32'd9) | (in_count == 32'd1174) | (in_count == 32'd2339)) begin
+        //if ((in_count == 32'd9) | (in_count == 32'd1174) | (in_count == 32'd2339)) begin
+        if ((in_count == 32'd10) | (in_count == 32'd1175) | (in_count == 32'd2340)) begin
             LD_weight = 1'b1;
         end else begin
             LD_weight = 1'b0;
@@ -60,6 +62,14 @@ module PE_array(
         r <= R;
     end
     
+    always @ (posedge CLK) begin
+        if (in_count == 32'd1) begin
+            bias <= J;
+        end else begin
+            bias <= bias;
+        end
+    end
+    
     PE pe1(.weight_input(r), .PE_input(a), .load_weight(LD_weight), .CLK(CLK), .psum_out(pout1));
     PE pe2(.weight_input(q), .PE_input(b), .load_weight(LD_weight), .CLK(CLK), .psum_out(pout2));
     PE pe3(.weight_input(p), .PE_input(c), .load_weight(LD_weight), .CLK(CLK), .psum_out(pout3));
@@ -94,7 +104,8 @@ module PE_array(
         
     always @ (posedge CLK) begin
     
-        out_read_0 <= (in_count <= 32'd3495);
+        //out_read_0 <= (in_count <= 32'd3495);
+        out_read_0 <= (in_count <= 32'd3496);
         out_read_1 <= out_read_0;
         out_read_2 <= out_read_1;
         out_read_3 <= out_read_2;
@@ -102,7 +113,8 @@ module PE_array(
         out_read_5 <= out_read_4;
         out_read   <= out_read_5;
         
-        out_done_0 <= (in_count == 32'd3495);
+        //out_done_0 <= (in_count == 32'd3495);
+        out_done_0 <= (in_count == 32'd3496);
         out_done_1 <= out_done_0;
         out_done_2 <= out_done_1;
         out_done_3 <= out_done_2;

@@ -21,14 +21,12 @@ module INTERFACE_AND_MULTIPLY(
     reg [31:0] in_count;
     reg valid_input;
     wire valid_output;
-    
-    wire [31:0] output_enum;
-    
+        
     wire out_done;
     wire out_read;
     wire [31:0] rolling_sum;
     
-    reg [31:0] rs_pipeline;
+    wire [31:0] bias;
     
     reg read_ready;
 
@@ -43,7 +41,8 @@ module INTERFACE_AND_MULTIPLY(
     .valid_input(valid_input),
     .out_done(out_done),
     .out_read(out_read),
-    .valid_output(valid_output));
+    .valid_output(valid_output),
+    .bias(bias));
     
         
     output_sr result(
@@ -66,9 +65,8 @@ module INTERFACE_AND_MULTIPLY(
             SLAVE_KEEP <= 4'b1111;
             SLAVE_VALID <= read_ready;
             SLAVE_LAST <= out_done;
-            SLAVE_RESULT <= rolling_sum;
+            SLAVE_RESULT <= rolling_sum + bias;
             read_ready <= read_ready | valid_input;
-            //SLAVE_RESULT <= output_enum;
             
             if ((READY == 1) & (MASTER_VALID == 1)) begin
                 in_count <= in_count + 32'd1;

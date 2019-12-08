@@ -18,7 +18,7 @@ module PE(
     end
     
     always @ (posedge CLK) begin
-        result[31:0] <= weight[16:0] * PE_input[16:0];
+        result[31:0] <= weight[31:0] * PE_input[31:0];
         psum_out <= result;
     end
     
