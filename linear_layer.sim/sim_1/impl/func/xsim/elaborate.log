@@ -1,0 +1,30 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/Brock/school/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 11e902ddc25f4c6587bb836711fc4bd0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L secureip --snapshot testbench_func_impl xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/multiplier_verilog.v" Line 1. Module INTERFACE_AND_MULTIPLY has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE_array.v" Line 1. Module PE_array has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/memory_architecture.v" Line 1. Module memory_architecture has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.srcs/sources_1/new/PE.v" Line 1. Module PE has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Brock/school/ECE498/final_project/FinalProject.sim/sim_1/impl/func/xsim/testbench_func_impl.v" Line 119372. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.memory_architecture
+Compiling module xil_defaultlib.PE
+Compiling module xil_defaultlib.PE_array
+Compiling module xil_defaultlib.INTERFACE_AND_MULTIPLY
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_func_impl

@@ -1,0 +1,3 @@
+copy "C:\Users\Brock\School\ECE498\Final Project\linear_layer.runs\impl_1\system_control_wrapper.bit" "C:\Users\Brock\school\ECE498\Final Project\output_files_linear\linear.bit"
+copy "C:\Users\Brock\School\ECE498\Final Project\linear_layer.runs\impl_1\system_control_wrapper.tcl" "C:\Users\Brock\school\ECE498\Final Project\output_files_linear\linear.tcl"
+copy "C:\Users\Brock\School\ECE498\Final Project\linear_layer.srcs\sources_1\bd\system_control\hw_handoff\system_control.hwh" "C:\Users\Brock\school\ECE498\Final Project\output_files_linear\linear.hwh"
