@@ -176,15 +176,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="327.81103"
-     inkscape:cy="920.54598"
+     inkscape:zoom="1.4"
+     inkscape:cx="282.73844"
+     inkscape:cy="868.86792"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1278"
      inkscape:window-height="1008"
-     inkscape:window-x="1273"
+     inkscape:window-x="-7"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
@@ -195,7 +195,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -351,63 +351,21 @@
        d="M 93.143429,81.046221 V 61.13464"
        id="path4713"
        inkscape:connector-curvature="0" />
-    <g
-       id="g4665-2"
-       transform="translate(22.379076,-2.7388691)">
-      <circle
-         r="2.9293153"
-         cy="87.317703"
-         cx="93.832588"
-         id="path4656-1"
-         style="opacity:0.98999999;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text4660-9"
-         y="88.728386"
-         x="93.832588"
-         style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.26458332"
-           y="88.728386"
-           x="93.832588"
-           id="tspan4658-4"
-           sodipodi:role="line">+</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="116.18987"
-       y="25.046131"
-       id="text4799"><tspan
-         sodipodi:role="line"
-         id="tspan4797"
-         x="116.18987"
-         y="25.046131"
-         style="stroke-width:0.26458332">Partial Sum In</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4811)"
        d="m 96.21703,84.453906 h 16.63753"
        id="path4801"
        inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4877)"
-       d="M 116.32217,81.270088 V 26.747023"
-       id="path4867"
-       inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="148.39435"
+       x="131.46124"
        y="86.032623"
        id="text4941"><tspan
          sodipodi:role="line"
          id="tspan4939"
-         x="148.39435"
+         x="131.46124"
          y="86.032623"
-         style="stroke-width:0.26458332">Partial Sum Out</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5029)"
-       d="m 119.34598,84.388393 h 12.94568"
-       id="path4943"
-       inkscape:connector-curvature="0" />
+         style="stroke-width:0.26458332">Partial conv out</tspan></text>
   </g>
 </svg>

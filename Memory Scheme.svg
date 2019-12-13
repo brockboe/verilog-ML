@@ -88,14 +88,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0570195"
-     inkscape:cx="405.87608"
-     inkscape:cy="912.05286"
+     inkscape:cx="354.34491"
+     inkscape:cy="889.95819"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1708"
      showgrid="false"
      inkscape:window-width="1278"
      inkscape:window-height="1008"
-     inkscape:window-x="1273"
+     inkscape:window-x="-7"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -270,7 +270,7 @@
              id="tspan1404-1"
              x="113.31065"
              y="25.001089"
-             style="font-size:2.11666656px;fill:#008080;stroke-width:0.26458332">Length 32 Shift Register</tspan></text>
+             style="font-size:2.11666656px;fill:#008080;stroke-width:0.26458332">Length 34 Shift Register</tspan></text>
       </g>
       <g
          transform="translate(0.008027,-0.77724584)"
@@ -363,7 +363,7 @@
              id="tspan1404-1-4"
              x="113.12563"
              y="45.106853"
-             style="font-size:2.11666656px;fill:#008080;stroke-width:0.26458332"> Length 32 Shift Register</tspan></text>
+             style="font-size:2.11666656px;fill:#008080;stroke-width:0.26458332"> Length 34 Shift Register</tspan></text>
       </g>
     </g>
     <g
